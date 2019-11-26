@@ -19,6 +19,6 @@ VALUES
 ('Denis','Denis','Denis',1200,),
 ('Dima','Dima','Dima',350,);
 //Задание 2
-DROP name FROM rk3 WHERE count=0;
+DROP name FROM rk3 WHERE count='0';
 // Задание 3
-SELECT name  FROM rk3 WHERE name LIKE '%k' and count<1000 and >300;
+SELECT name  FROM rk3 WHERE name LIKE '%k' and count<'1000' and >'300';
